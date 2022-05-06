@@ -6,7 +6,7 @@ set(OpenGL_GL_PREFERENCE "GLVND")
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(include src)
-add_executable(tinygl main.cpp src/Shader.cpp src/Shader.h src/Texture.cpp src/Texture.h src/Camera.cpp src/Camera.h src/Cube.cpp src/Cube.h)
+add_executable(tinygl main.cpp src/Shader.cpp src/Shader.h src/Texture.cpp src/Texture.h src/Camera.cpp src/Camera.h src/Cube.cpp src/Cube.h src/Scene.cpp src/Scene.h)
 
 add_library(GLAD "thirdparty/glad.c")
 add_library(stb_image "thirdparty/stb_image.cpp")
